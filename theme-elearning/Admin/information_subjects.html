@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trang quản trị</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Fontastic Custom icon font-->
+    <link rel="stylesheet" href="css/fontastic.css">
+    <!-- Custom Scrollbar-->
+    <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <!-- Google fonts - Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <!-- jQuery Circle-->
+    <link rel="stylesheet" href="css/grasp_mobile_progress_circle-1.0.0.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.premium.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Side Navbar -->
+<nav class="side-navbar">
+    <div class="side-navbar-wrapper">
+        <!-- Sidebar Header    -->
+        <div class="sidenav-header d-flex align-items-center justify-content-center">
+            <!-- User Info-->
+            <div class="sidenav-header-inner text-center"><a href="#"><img src="images/logo_vnua_thao.png" alt="logo" class="img-fluid rounded-circle"></a>
+                <h2 class="h5">E-learning</h2><span>Website học trực tuyến</span>
+            </div>
+            <!-- Small Brand information, appears on minimized sidebar-->
+            <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"> <strong>B</strong><strong class="text-primary">D</strong></a></div>
+        </div>
+        <!-- Sidebar Navigation Menus-->
+        <div class="main-menu">
+            <ul id="side-main-menu" class="side-menu list-unstyled">
+                <li><a href="index.html"><i class="icon-home"></i>Trang chủ</a></li>
+                <li><a href="index.html">Quản lý thông tin giáo viên</a></li>
+                <li><a href="index.html">Quản lý thông tin học viên</a></li>
+                <li><a href="index.html">Quản lý môn học trong đào tạo</a></li>
+                <li><a href="index.html">Quản lý lớp trực tuyến</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="page">
+    <!-- navbar-->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-holder d-flex align-items-center justify-content-between">
+                    <div class="navbar-header"><a id="toggle-btn" href="#" class="menu-btn"><i class="icon-bars"> </i></a><a href="index.html" class="navbar-brand">
+                        <div class="brand-text d-none d-md-inline-block"><strong class="text-primary">Trang quản trị</strong></div></a></div>
+                    <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center">
+                        <!-- Log out-->
+                        <li class="nav-item"><a href="#" class="nav-link logout"> <span class="d-none d-sm-inline-block">Logout</span><i class="fa fa-sign-out"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Counts Section -->
+    <section class="dashboard-counts section-padding">
+        <div class="container-fluid">
+            <div class="mb-3">
+                <button type="button" class="btn btn-success rounded shadow"><i class="fa fa-plus"></i> Thêm môn học</button>
+            </div>
+            <h1>Danh sách học phần</h1>
+            <div class="row pt-3">
+                <!--                        Lọc theo giáo viên-->
+
+                <div class="col">
+                    <div class="form-group w-50 shadow">
+                        <select class="form-control">
+                            <option selected disabled>Lọc theo giáo viên</option>
+                            <option>Khoa công nghệ thông tin</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!--                Lọc theo khoa-->
+
+                <div class="col">
+                    <div class="form-group w-50 shadow">
+                        <select class="form-control" >
+                            <option selected disabled>Lọc theo khoa</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12 pt-4">
+                    <table class="table table-striped text-center border border-dark shadow">
+                        <thead>
+                        <tr>
+                            <th scope="col">Mã HP</th>
+                            <th scope="col">Tên học phần</th>
+                            <th scope="col">Khoa</th>
+                            <th scope="col">Giáo viên phụ trách</th>
+                            <th scope="col">Trạng thái</th>
+                            <th scope="col">Thao tác</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">596703</th>
+                            <td>Mark</td>
+                            <td>Công nghệ thông tin</td>
+                            <td></td>
+                            <td><i class="fa fa-unlock"></i></td>
+                            <td><i class="fa fa-lock  pr-1"></i><i class="fa fa-eye"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">596703</th>
+                            <td>Mark</td>
+                            <td>Công nghệ thông tin</td>
+                            <td></td>
+                            <td><i class="fa fa-unlock"></i></td>
+                            <td><i class="fa fa-lock  pr-1"></i><i class="fa fa-eye"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">596703</th>
+                            <td>Mark</td>
+                            <td>Công nghệ thông tin</td>
+                            <td></td>
+                            <td><i class="fa fa-unlock"></i></td>
+                            <td><i class="fa fa-lock  pr-1"></i><i class="fa fa-eye"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">596703</th>
+                            <td>Mark</td>
+                            <td>Công nghệ thông tin</td>
+                            <td></td>
+                            <td><i class="fa fa-unlock"></i></td>
+                            <td><i class="fa fa-lock  pr-1"></i><i class="fa fa-eye"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">596703</th>
+                            <td>Mark</td>
+                            <td>Công nghệ thông tin</td>
+                            <td></td>
+                            <td><i class="fa fa-unlock"></i></td>
+                            <td><i class="fa fa-lock  pr-1"></i><i class="fa fa-eye"></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <!--                Chuyển trang-->
+
+                <div class="col-lg-12">
+                    <nav aria-label="Page navigation example" class="pt-4">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>2020 © Học viện Nông Nghiệp Việt Nam</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- JavaScript files-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/grasp_mobile_progress_circle-1.0.0.min.js"></script>
+<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+<script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Main File-->
+<script src="js/front.js"></script>
+</body>
+</html>

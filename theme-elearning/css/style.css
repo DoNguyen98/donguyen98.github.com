@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+body{
+    background-color: #F4F7FA;
+}
+header{
+    background-color: ivory;
+}
+.nav-link-menu{
+    color: black !important;
+    font-size: 19px;
+}
+#footer-top{
+    margin-top: 50px;
+    background:#008B00;
+    color: #F8F8FF;
+}
+#footer-top h3{
+    font-size:18px;
+    border-bottom:1px solid #333;
+    padding-bottom:10px;
+}
+
+#footer-bottom{
+    background:#1C1C1C;
+    padding:10px 0;
+}
+#footer-bottom p{
+    margin:0;
+    color:#a1b1bc;
+}
+
+/* Underline Effect*/
+.nav-item {
+    position: relative;
+}
+
+.navbar-collapse ul li a.nav-link:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.navbar-collapse ul li:hover a.nav-link:before {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    bottom: 0px;
+    background: #dd4343;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #dd4343;
+}
+
+.dropdown-menu {
+    border: 0px;
+}
+/*css student*/
+.navbar-student{
+    height: 1000px;
+    overflow-x: hidden;
+
+}
+.navbar-student h5{
+    padding-top: 15px;
+}
+
+.lesson{
+    padding-left: 30px;
+    list-style: none;
+}
+.lesson a{
+    text-decoration: none;
+}
+h6{
+    padding-top: 12px;
+    padding-left: 3px;
+}
+
+/*css thảo luận*/
+.title {
+    font-size: 14px;
+    font-weight:bold;
+}
+.commnent {
+    font-size:14px;
+
+}
+.repcoment {
+    margin-left:55px;
+    margin-top:5px;
+}
+
+.btn-bubble {
+    color: white;
+    background-color: #77b11c;
+    background-repeat: no-repeat;
+}
+.btn-bubble:hover, .btn-bubble:focus {
+    -webkit-animation: bubbles 1s forwards ease-out;
+    animation: bubbles 1s forwards ease-out;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 6% 105% / 0.55em 0.55em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) -7% 147% / 1.12em 1.12em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 87% 146% / 0.93em 0.93em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 5% 115% / 0.99em 0.99em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 20% 99% / 0.86em 0.86em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 109% 80% / 0.86em 0.86em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 45% 85% / 1.06em 1.06em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 22% 94% / 1.2em 1.2em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 52% 122% / 0.76em 0.76em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 37% 113% / 1.18em 1.18em, radial-gradient(circle at center, rgba(0, 0, 0, 0) 30%, #eeeeff 60%, #eeeeff 65%, rgba(0, 0, 0, 0) 70%) 4% 102% / 1.09em 1.09em;
+    background-color: #77b11c;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes bubbles {
+    100% {
+        background-position: 10% 19%, -17% -10%, 88% -206%, -1% -281%, 26% -113%, 103% 22%, 46% -222%, 26% -19%, 53% -143%, 36% 29%, 11% 22%;
+        box-shadow: inset 0 -6.5em 0 #0072c4;
+    }
+}
+
+@keyframes bubbles {
+    100% {
+        background-position: 10% 19%, -17% -10%, 88% -206%, -1% -281%, 26% -113%, 103% 22%, 46% -222%, 26% -19%, 53% -143%, 36% 29%, 11% 22%;
+        box-shadow: inset 0 -6.5em 0 #0072c4;
+    }
+}
+.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+
+
+

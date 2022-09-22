@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>Elearning VNUA</title>
+</head>
+<body>
+
+<!--header-->
+
+<header>
+    <div class="container">
+        <div class="row">
+
+            <!--            logo-->
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center pt-2" id="logo" >
+                <a href="index.php"><img src="images/logo_vnua_thao.png"  alt="Elearning" title="Elearning VNUA" style="width: 120px"></a>
+            </div>
+
+            <!--header right-->
+
+            <div class="col-lg-10 col-md-12 mt-3">
+                <div class="row">
+
+                    <!--search-->
+
+                    <div class="col-lg-6 col-md-7 col-sm-12">
+                        <nav class="navbar navbar-light">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Tìm kiếm khóa học ..." aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit" ><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!--                    menu top right-->
+                    <div class="col-lg-4 col-md-5 col-sm-12 " >
+                        <div class="row fa-2x">
+                            <span class="mr-2 ml-4"><i class="fas fa-shopping-cart" title="Giỏ hàng"></i></span>
+                            <span class="mr-2"><i class="far fa-heart" title="Yêu thích"></i></span>
+                            <span class="mr-2 "><a style="color: black" href="chat/chat.html"><i class="far fa-envelope" title="Tin nhắn"></i></a></span>
+                            <div class="dropdown">
+                                <span class=" btn p-0 "  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-bell pb-1 fa-2x" title="Thông báo"></i>
+                                </span>
+                                <div class="dropdown-menu  dropdown-menu-right border-success "  style="max-width: 500px;">
+                                    <a class="dropdown-item border-bottom border-success font-weight-bold disabled card-header " >Thông báo</a>
+                                    <a class="dropdown-item border-bottom border-success " href="#">Thông báo 1</a>
+                                    <a class="dropdown-item border-bottom border-success " href="#">Thông báo 2</a>
+                                    <a class="dropdown-item border-bottom border-success" href="#">Thông báo 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                menu bottom-->
+
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light font-weight-bold ">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Khóa học trong đào tạo
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Khóa học 1</a>
+                                        <a class="dropdown-item" href="#">Khóa học 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Khóa học mở
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Khóa học 1</a>
+                                        <a class="dropdown-item" href="#">Khóa học 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Giảng viên
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Giảng viên 1</a>
+                                        <a class="dropdown-item" href="#">Giảng viên 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</header>
+
+<!--end header-->
+
+
+<!--body-->
+<session>
+
+<div class="container">
+    <div class="row pt-5">
+
+<!--        session main-->
+
+        <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class=" border border-success pt-1 rounded" style="background-color: antiquewhite;box-shadow: 10px 10px 5px gray;">
+                <div class="row justify-content-between text-center">
+
+    <!--                tên môn học-->
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <h5>An toàn thông tin</h5>
+                    </div>
+
+    <!--                mã môn học,mã lớp-->
+
+                    <div class="col-lg-5 col-md-6  col-sm-12">
+                        <h5>TH02038 - K62ATTT</h5>
+                    </div>
+                </div>
+
+                <div class="row mt-3 mb-2">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <span class="float-left pl-3 pr-2 "><i class="fas fa-user-circle fa-2x"></i></span>
+                        <p>Lê Văn A</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <span class="float-left pl-3 pr-2"><i class="fas fa-users fa-2x"></i></span>
+                        <p>500 học viên</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <span class="float-left pl-3 pr-2"><i class="fas fa-comments fa-2x"></i></span>
+                        <p>500 đánh giá</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-1 text-center font-weight-bold">
+<!--                    <div class="col-lg-4 col-md-4 col-sm-12 p-2 border border-success rounded" style="background-color:indigo;color: white;">-->
+<!--                        Giới thiệu chung-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-4 col-sm-12 p-2 border border-success rounded bg-white ">-->
+<!--                       Giáo trình-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-4 col-sm-12 p-2 border border-success bg-white rounded">-->
+<!--                       Giảng viên-->
+<!--                    </div>-->
+                <div class="col-lg-4 col-md-4 col-sm-12 rounded ">
+                    <a href="#anchor1" class="btn btn1 btn-bubble w-100">Giới thiệu chung</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 rounded ">
+                    <a href="#anchor2" class="btn btn1 btn-bubble w-100">Giáo trình</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 rounded ">
+                    <a href="#anchor3" class="btn btn1 btn-bubble w-100">Giảng viên</a>
+                </div>
+            </div>
+<!--            Giới thiệu chung-->
+
+            <div class=" border border-success bg-white rounded" >
+                <p class="pl-2 pt-2"><a name='anchor1'>Đây là phần giới thiệu chung</a></p>
+            </div>
+
+<!--            Giáo trình-->
+
+            <div class=" mt-1 border border-success bg-white rounded">
+                <h4 class="ml-2 pt-2" style=" border-bottom:2px solid green; width: 107px;"><a name='anchor2'>Giáo trình</a></h4>
+
+                <!--        Danh sách các chương-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <p class="pl-1">Thể loại: Công nghệ thông tin</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <span class="float-left pl-3 pr-2"><i class="fab fa-youtube fa-2x"></i></span>
+                        <span>Số bài: 50</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <span class="float-left pl-3 pr-2"><i class="far fa-clock fa-2x"></i></span>
+                        <p>Thời lượng: 04:49:29</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <hr class="col-lg-5 col-md-5 " style="width: auto; border-width:4px;background-color: green;">
+                </div>
+
+                    <div class="input-group">
+                    <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                    <div class="input-group">
+                    <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                    <div class="input-group">
+                        <select class="custom-select"  aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select class="custom-select"  aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select class="custom-select"  aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+            </div>
+
+            <!--       Thông tin giảng viên-->
+
+            <div class=" mt-1 border border-success bg-white rounded ">
+                <h4 class="ml-2 pt-2" style=" border-bottom:2px solid green; width: 217px;"><a name='anchor3'>Thông tin giảng viên</a></h4>
+                <div class="row ml-0 mr-0 mt-4 mb-3">
+                    <div class="col-lg-7 col-md-7 col-sm-12 mt-2">
+                        <span class="float-left pl-3 pr-2 "><i class="fas fa-user-circle fa-2x"></i></span>
+                        <p>Lê Văn A</p>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 text-center">
+                        <a href="course_teacher.html" style="text-decoration: none;">
+                        <div class="row bg-success shadow border border-success rounded-pill" title="Thông tin giảng dạy" style="max-height: 58px;max-width: 200px;color: white;">
+                            <div class="col">
+                                <span class="d-block">4</span>
+                                <span>Khóa học</span>
+                            </div>
+                            <div class="col">
+                                <span class="d-block">1000</span>
+                                <span>Học viên</span>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="form-text mb-2" style="overflow-x: hidden;height: 100px ">
+                        <p class="p-3">Đây là phần thông tin giảng viên Đây là phần thông tin giảng viên Đây là phần thông tin giảng viên Đây là phần thông tin giảng viênĐây là phần thông tin giảng viên Đây là phần thông tin giảng viên Đây là phần thông tin giảng viên Đây là phần thông tin giảng viên Đây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viênĐây là phần thông tin giảng viên </p>
+                    </div>
+                </div>
+            </div>
+
+<!--            Đánh giá-->
+
+            <div class="mt-1 mb-1 border border-success bg-white rounded ">
+                <div class="row">
+<!--                    Thống kê tất cả đánh giá-->
+
+                    <div class="col-lg-5 col-md-5 col-sm-12 text-center">
+                        <p class="pt-4 mb-0">4.1</p>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>(12 người đánh giá)</p>
+                        <div class="list-group pl-3 pr-3">
+                            <div class="mb-2">
+                                <div class="float-left">5<i class="far fa-star pr-2 "></i></div>
+                                <div class="progress " style="margin-top: 4px;">
+                                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="float-left">4<i class="far fa-star pr-2 "></i></div>
+                                <div class="progress" style="margin-top: 4px;">
+                                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="float-left">3<i class="far fa-star pr-2 "></i></div>
+                                <div class="progress" style="margin-top: 4px;">
+                                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="float-left">2<i class="far fa-star pr-2 "></i></div>
+                                <div class="progress" style="margin-top: 4px;">
+                                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="mb-2">
+                                <div class="float-left">1<i class="far fa-star pr-2 "></i></div>
+                                <div class="progress" style="margin-top: 4px;">
+                                    <div class="progress-bar " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+<!--                    Chi tiết người dùng đánh giá-->
+
+                    <div class="col-lg-7 col-md-7 col-sm-12 p-3">
+                        <div>
+                            <span class="float-left pr-2"><i class="fas fa-user-circle fa-2x"></i></span>
+                            <p>Lê Văn A</p>
+                            <div class="pl-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <span class="float-left pr-2"><i class="fas fa-user-circle fa-2x"></i></span>
+                            <p>Lê Văn A</p>
+                            <div class="pl-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <span class="float-left pr-2"><i class="fas fa-user-circle fa-2x"></i></span>
+                            <p>Lê Văn A</p>
+                            <div class="pl-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <span class="float-left pr-2"><i class="fas fa-user-circle fa-2x"></i></span>
+                            <p>Lê Văn A</p>
+                            <div class="pl-4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+<!--        session left-->
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <button type="button" class="btn btn-outline-success">Mua ngay / Vào lớp</button>
+                        <div class="row mt-4 mb-4">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-success mb-1">Thêm vào giỏ hàng</button>
+                        <button type="button" class="btn btn-outline-success mb-1">Đăng nhập</button>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <h4 class="ml-2 pt-2 pb-1" style=" border-bottom:2px solid green; width: 209px;">Khóa học liên quan</h4>
+                    <div class="card w-75">
+                        <img src="images/course.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <span><i class="fas fa-star "></i></span>
+                            <span><i class="fas fa-star "></i></span>
+                            <span><i class="fas fa-star "></i></span>
+                            <span><i class="fas fa-star "></i></span>
+                            <span><i class="fas fa-star "></i></span>
+                            <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                            <div class="row mt-3 ">
+                                <span class="float-left pl-3 pr-2 "><i class="fas fa-user-circle fa-2x"></i></span>
+                                <span>Lê Văn A</span>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col text-left">
+                                    <span>500.000 ₫</span>
+                                </div>
+                                <div class="col text-right">
+                                    <span><i class="fas fa-heart fa-2x"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+</session>
+<!--end body-->
+
+<!--footer-->
+<footer>
+    <!--footer top-->
+    <div id="footer-top">
+        <div class="container pt-5">
+            <div class="row">
+                <div id="logo-2" class="col-lg-3 col-md-6 col-sm-12">
+                    <h2><a href="#"><img src="images/logo_vnua_thao.png" style="width: 50px" ></a>E-learning</h2>
+                    <p>
+                        E learning cung cấp các khóa học trực tuyến....
+                    </p>
+                </div>
+                <div id="address" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên kết</h3>
+                    <p>1</p>
+                    <p>2</p>
+                </div>
+                <div id="service" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên kết</h3>
+                    <p>1</p>
+                    <p>2</p>
+                </div>
+                <div id="hotline" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên hệ chúng tôi</h3>
+                    <p>Phone : </p>
+                    <p>Email: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer top-->
+
+    <!--footer bottom-->
+
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p>
+                        2020 © Học viện Nông Nghiệp Việt Nam
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer bottom-->
+</footer>
+<!--end footer-->
+
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js" ></script>
+<script src="js/menubottom.js"></script>
+</body>
+</html>

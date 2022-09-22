@@ -1,0 +1,12 @@
+*{
+    font-family: Arial;
+}
+.statistic{
+    height:auto;
+    width:auto;
+    font-size: 30px;
+    word-break: break-all;
+    color:white;
+    box-shadow: 10px 10px 5px gray;
+}
+

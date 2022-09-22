@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>Elearning VNUA</title>
+</head>
+<body>
+
+<!--header-->
+
+<header>
+    <div class="container">
+        <div class="row">
+
+            <!--            logo-->
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center pt-2" id="logo" >
+                <a href="index.php"><img src="images/logo_vnua_thao.png"  alt="Elearning" title="Elearning VNUA" style="width: 120px"></a>
+            </div>
+
+            <!--header right-->
+
+            <div class="col-lg-10 col-md-12 mt-3">
+                <div class="row">
+
+                    <!--search-->
+
+                    <div class="col-lg-6 col-md-7 col-sm-12">
+                        <nav class="navbar navbar-light">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Tìm kiếm khóa học ..." aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="submit" ><i class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!--                    menu top right-->
+                    <div class="col-lg-4 col-md-5 col-sm-12 " >
+                        <div class="row fa-2x">
+                            <span class="mr-2 ml-4"><i class="fas fa-shopping-cart" title="Giỏ hàng"></i></span>
+                            <span class="mr-2"><i class="far fa-heart" title="Yêu thích"></i></span>
+                            <span class="mr-2 "><a style="color: black" href="chat/chat.html"><i class="far fa-envelope" title="Tin nhắn"></i></a></span>
+                            <div class="dropdown">
+                                <span class=" btn p-0 "  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-bell pb-1 fa-2x" title="Thông báo"></i>
+                                </span>
+                                <div class="dropdown-menu  dropdown-menu-right border-success "  style="max-width: 500px;">
+                                    <a class="dropdown-item border-bottom border-success font-weight-bold disabled card-header " >Thông báo</a>
+                                    <a class="dropdown-item border-bottom border-success " href="#">Thông báo 1</a>
+                                    <a class="dropdown-item border-bottom border-success " href="#">Thông báo 2</a>
+                                    <a class="dropdown-item border-bottom border-success" href="#">Thông báo 3</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                menu bottom-->
+
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light font-weight-bold ">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#">Trang chủ<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Khóa học trong đào tạo
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Khóa học 1</a>
+                                        <a class="dropdown-item" href="#">Khóa học 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Khóa học mở
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Khóa học 1</a>
+                                        <a class="dropdown-item" href="#">Khóa học 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-menu dropdown-toggle navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Giảng viên
+                                    </a>
+                                    <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Giảng viên 1</a>
+                                        <a class="dropdown-item" href="#">Giảng viên 2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Xem tất cả</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-menu" href="#">Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</header>
+
+<!--end header-->
+
+
+<!--body-->
+<session>
+    <!--main-->
+    <div id="main">
+        <div class="container-fuid mt-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide1.jpg" class="d-block w-100"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide2.jpg" class="d-block w-100"  alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide3.jpg" class="d-block w-100"  alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--end main-->
+
+    <!--open course-->
+    <div class="container mt-4">
+        <h3>Khóa học mở</h3>
+        <div class="row mt-3">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card ">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12  mb-4">
+                <div class="card">
+                    <img src="images/course.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <span><i class="fas fa-star "></i></span>
+                        <h5 class="card-title mt-3 ">An toàn thông tin</h5>
+                        <div class="row mt-3 ">
+                            <i class="fas fa-user-circle fa-2x"></i>
+                            <span class="pl-4">Lê Văn A</span>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col text-left">
+                                <span>500.000 ₫</span>
+                            </div>
+                            <div class="col text-right">
+                                <span><i class="fas fa-heart fa-2x"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end open course-->
+
+</session>
+<!--end body-->
+
+<!--footer-->
+<footer>
+    <!--footer top-->
+    <div id="footer-top">
+        <div class="container pt-5">
+            <div class="row">
+                <div id="logo-2" class="col-lg-3 col-md-6 col-sm-12">
+                    <h2><a href="#"><img src="images/logo_vnua_thao.png" style="width: 50px" ></a>E-learning</h2>
+                    <p>
+                        E learning cung cấp các khóa học trực tuyến....
+                    </p>
+                </div>
+                <div id="address" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên kết</h3>
+                    <p>1</p>
+                    <p>2</p>
+                </div>
+                <div id="service" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên kết</h3>
+                    <p>1</p>
+                    <p>2</p>
+                </div>
+                <div id="hotline" class="col-lg-3 col-md-6 col-sm-12">
+                    <h3>Liên hệ chúng tôi</h3>
+                    <p>Phone : </p>
+                    <p>Email: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer top-->
+
+    <!--footer bottom-->
+
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p>
+                        2020 © Học viện Nông Nghiệp Việt Nam
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer bottom-->
+</footer>
+<!--end footer-->
+<!-- Thư viện jQuery  -->
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<!-- JavaScript -->
+<script src="bootstrap/js/bootstrap.min.js" ></script>
+</body>
+</html>
